@@ -21,16 +21,22 @@ label_result = Label(root, width = 25, height = 2, text = "", font = ("Comic San
 label_result.pack() 
 
 # Displays the Buttons on the 1st Row of the Program
-Button(root,text="C", width = 5, height = 1, font = ("Comic Sans MS", 30, "bold"), bd = 1, fg = "#fff", bg = "#3697f5").place(x = 10, y = 120)
+Button(root,text="C", width = 5, height = 1, font = ("Comic Sans MS", 30, "bold"), bd = 1, fg = "#fff", bg = "#eb5406").place(x = 10, y = 120)
 Button(root,text="/", width = 5, height = 1, font = ("Comic Sans MS", 30, "bold"), bd = 1, fg = "#fff", bg = "#2a2d36").place(x = 150, y = 120)
 Button(root,text="%", width = 5, height = 1, font = ("Comic Sans MS", 30, "bold"), bd = 1, fg = "#fff", bg = "#2a2d36").place(x = 290, y = 120)
 Button(root,text="*", width = 5, height = 1, font = ("Comic Sans MS", 30, "bold"), bd = 1, fg = "#fff", bg = "#2a2d36").place(x = 430, y = 120)
 
 # Displays the Buttons on the 2nd Row of the Program
-Button(root,text="7", width = 5, height = 1, font = ("Comic Sans MS", 30, "bold"), bd = 1, fg = "#fff", bg = "#3697f5").place(x = 10, y = 220)
+Button(root,text="7", width = 5, height = 1, font = ("Comic Sans MS", 30, "bold"), bd = 1, fg = "#fff", bg = "#2a2d36").place(x = 10, y = 220)
 Button(root,text="8", width = 5, height = 1, font = ("Comic Sans MS", 30, "bold"), bd = 1, fg = "#fff", bg = "#2a2d36").place(x = 150, y = 220)
 Button(root,text="9", width = 5, height = 1, font = ("Comic Sans MS", 30, "bold"), bd = 1, fg = "#fff", bg = "#2a2d36").place(x = 290, y = 220)
 Button(root,text="-", width = 5, height = 1, font = ("Comic Sans MS", 30, "bold"), bd = 1, fg = "#fff", bg = "#2a2d36").place(x = 430, y = 220)
+
+# Displays the Buttons on the 3rd Row of the Program
+Button(root,text="4", width = 5, height = 1, font = ("Comic Sans MS", 30, "bold"), bd = 1, fg = "#fff", bg = "#2a2d36").place(x = 10, y = 320)
+Button(root,text="5", width = 5, height = 1, font = ("Comic Sans MS", 30, "bold"), bd = 1, fg = "#fff", bg = "#2a2d36").place(x = 150, y = 320)
+Button(root,text="6", width = 5, height = 1, font = ("Comic Sans MS", 30, "bold"), bd = 1, fg = "#fff", bg = "#2a2d36").place(x = 290, y = 320)
+Button(root,text="+", width = 5, height = 1, font = ("Comic Sans MS", 30, "bold"), bd = 1, fg = "#fff", bg = "#2a2d36").place(x = 430, y = 320)
 
 # Function to run the Program
 root.mainloop()
